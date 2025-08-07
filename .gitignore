@@ -30,3 +30,6 @@ desktop.ini
 
 # Ignore pastas de tracking se ativar MLflow futuramente
 mlruns/
+
+# Ignore Obsidian vaults
+.obsidian/
