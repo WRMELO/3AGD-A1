@@ -1,0 +1,32 @@
+# Ignore o ambiente virtual local
+.venv/
+
+# Ignore todos os dados locais (brutos e curados)
+data/
+
+# Ignore checkpoints automáticos do Jupyter
+.ipynb_checkpoints/
+
+# Ignore arquivos temporários ou de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Ignore arquivos do VS Code e Jupyter
+.vscode/
+*.code-workspace
+*.nbconvert.ipynb
+
+# Ignore arquivos de sistema (Windows, Mac, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore pastas de tracking se ativar MLflow futuramente
+mlruns/
