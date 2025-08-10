@@ -1,0 +1,2 @@
+﻿dimensao,grupo_id,colunas_origem,mean_novo,std_novo
+mpa,G001,deaerator_pressure_mpa|hot_reheat_steam_pressure_mpa|main_steam_pressure_mpa|prs_of_condensate_pump_a_outl_mpa|prs_of_condensate_pump_b_outl_mpa,mean_mpa_G001,std_mpa_G001

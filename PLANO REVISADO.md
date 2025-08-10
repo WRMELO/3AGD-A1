@@ -125,6 +125,3 @@ Saídas: `modelo_baseline.pkl` (ou especificação documentada), importância do
     - `features_fisicas.csv`, `dicionario_proxies.csv`
         
 
-Dizendo “vamos fazer”, eu entrego as células Python para o seu notebook A1, no padrão que estamos usando (contexto, verificação, execução, salvamento e logs), sem sair do protocolo.
-
-Perguntar ao ChatGPT

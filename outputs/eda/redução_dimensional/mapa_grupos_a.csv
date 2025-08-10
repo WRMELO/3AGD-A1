@@ -1,0 +1,3 @@
+﻿dimensao,grupo_id,colunas_origem,mean_novo,std_novo
+a,G001,cur_of_hpa_fan_mtr_a_a|cur_of_hpa_fan_mtr_b_a,mean_a_G001,std_a_G001
+a,G002,cur_of_induced_draft_fan_mtr_a_a|cur_of_induced_draft_fan_mtr_b_a|cur_of_primary_air_fan_mtr_a_a,mean_a_G002,std_a_G002

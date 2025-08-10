@@ -1,0 +1,2 @@
+﻿dimensao,grupo_id,colunas_origem,mean_novo,std_novo
+t_h,G001,feed_water_flw_sel_t_h|flw_of_cnd_water_before_dea_t_h|total_fuel_flow_t_h,mean_t_h_G001,std_t_h_G001

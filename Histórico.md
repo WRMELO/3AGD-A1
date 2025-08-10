@@ -219,3 +219,86 @@ A1_LOCAL/
     
 
 ---
+
+
+---
+
+## **Checkpoint – Estado Atual do Projeto A1 (Predição de Desgaste CFB)**
+
+### **Base e Estrutura**
+
+- Arquivo atual de trabalho:  
+    `dados_operacao_consolidado_dimcorrigida.csv`  
+    (local: `data/staged/`)
+    
+- Colunas **protegidas**:
+    
+    - Timestamp (coluna original `Timestamp`, preservando maiúscula inicial)
+        
+    - `status_operacao`
+        
+    - `flw_total_a_t_h`
+        
+    - `flw_total_b_t_h`
+        
+    - `flw_total_c_t_h`
+        
+- Dimensão física extraída a partir do sufixo do nome curto (ex.: `kpa`, `adegc`, `nm3_h`, `%`).
+    
+- Indicadores “sem dimensão” tratados como `%` quando aplicável.
+    
+- Prefixos de **parciais** conhecidos (`flw_output_of_belt_coal_fdr_`) são removidos antes do agrupamento.
+    
+
+### **Objetivo Atual**
+
+Aplicar **redução de cardinalidade com consistência dimensional**, usando:
+
+- Correlação de Pearson absoluta por dimensão.
+    
+- Limite: **|r| ≥ 0,90**.
+    
+- Para cada grupo correlacionado:
+    
+    - Criar variáveis **média** (`mean_<dim>_Gxxx`) e **desvio padrão** (`std_<dim>_Gxxx`).
+        
+    - Remover as colunas originais do grupo, exceto as protegidas.
+        
+- Garantir que totais A/B/C **nunca sejam removidos**.
+    
+- Preservar ordem final: Timestamp no início, `status_operacao` no fim.
+    
+
+### **Saídas Definidas**
+
+Todos os arquivos vão para `output/eda/`:
+
+- `correlacoes_<dim>.csv` → Matriz de correlação absoluta por dimensão.
+    
+- `mapa_grupos_<dim>.csv` → Mapeamento de grupos correlacionados.
+    
+- `curado_dimensional.csv` → Dataset final único reduzido (base para curated).
+    
+- `resumo_correlacoes_por_dimensao.csv` → Estatísticas de redução por dimensão.
+    
+
+### **Status da Execução**
+
+- Código revisado e ajustado para:
+    
+    - Remover parciais antes do cálculo.
+        
+    - Proteger variáveis essenciais.
+        
+    - Evitar erros por colunas duplicadas ou já removidas.
+        
+- Última ação: Código final montado para execução completa da redução com consistência dimensional.
+    
+- Próxima etapa: Rodar o script para gerar as saídas finais.
+    
+
+---
+
+Se usarmos este checkpoint, o próximo chat começa **diretamente na execução da redução** e geração dos arquivos de saída, sem necessidade de relembrar decisões anteriores.
+
+Quer que eu já salve esse checkpoint também em formato **Markdown para download**?

@@ -1,0 +1,17 @@
+﻿dimensao,qtd_colunas_originais_dim,qtd_grupos_dim,qtd_removidas_dim,qtd_adicionadas_dim,reducao_percentual_dim(%)
+%,4,1,2,2,50.0
+a,10,2,5,4,50.0
+adegc,40,2,33,4,82.5
+adegc_min,2,0,0,0,0.0
+knm3_h,2,1,2,2,100.0
+kpa,38,3,28,6,73.68
+m,2,0,0,0,0.0
+m3,3,0,0,0,0.0
+m3_s,2,0,0,0,0.0
+mi,2,0,0,0,0.0
+mm,4,0,0,0,0.0
+mpa,7,1,5,2,71.43
+nm3,2,0,0,0,0.0
+pa,5,0,0,0,0.0
+rpm,4,0,0,0,0.0
+t_h,4,1,3,2,75.0

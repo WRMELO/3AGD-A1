@@ -1,0 +1,5 @@
+﻿,pa_fan_a_fq_speed_feedback_rpm,pa_fan_b_fq_speed_feedback_rpm,sa_fan_a_fq_speed_feedback_rpm,sa_fan_b_fq_speed_feedback_rpm
+pa_fan_a_fq_speed_feedback_rpm,0.0,0.05843711146344352,0.29508970086814434,0.5774485083560998
+pa_fan_b_fq_speed_feedback_rpm,0.05843711146344352,0.0,0.18422308447929386,0.357763830869364
+sa_fan_a_fq_speed_feedback_rpm,0.29508970086814434,0.18422308447929386,0.0,0.6936808998696581
+sa_fan_b_fq_speed_feedback_rpm,0.5774485083560998,0.357763830869364,0.6936808998696581,0.0
