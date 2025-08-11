@@ -1,0 +1,13 @@
+﻿proxy_nome,descricao,unidade,formula,colunas_origem
+coal_flow_furnace_t_h,Consumo de carvão NA FORNALHA (Flow C) — proxy oficial,t/h,= flw_total_c_t_h,flw_total_c_t_h
+coal_flow_total_ref_t_h,"Consumo total do combustível (referência única, sem somas encadeadas)",t/h,= total_fuel_flow_t_h,total_fuel_flow_t_h
+air_total_knm3_h,Vazão total de ar medida,kNm³/h,= total_air_flow_knm3_h,total_air_flow_knm3_h
+air_primary_knm3_h,Vazão de ar primário medida,kNm³/h,= total_paf_air_flow_knm3_h,total_paf_air_flow_knm3_h
+air_secondary_knm3_h,Vazão de ar secundário (derivada),kNm³/h,= air_total_knm3_h - air_primary_knm3_h (clip≥0),"total_air_flow_knm3_h, total_paf_air_flow_knm3_h"
+air_total_nm3_h,Vazão total de ar (convertida),Nm³/h,= air_total_knm3_h × 1000,total_air_flow_knm3_h
+air_primary_nm3_h,Vazão de ar primário (convertida),Nm³/h,= air_primary_knm3_h × 1000,total_paf_air_flow_knm3_h
+air_secondary_nm3_h,Vazão de ar secundário (convertida),Nm³/h,= air_secondary_knm3_h × 1000,"total_air_flow_knm3_h, total_paf_air_flow_knm3_h"
+air_primary_share_pct,Participação do ar primário no total,%,= 100 × air_primary_knm3_h / air_total_knm3_h,"total_air_flow_knm3_h, total_paf_air_flow_knm3_h"
+o2_excess_pct,Excesso de O₂ medido nos gases,%,= o2_avg_,o2_avg_
+air_primary_press_z,Proxy de ar primário por pressão (z-score médio),adimensional,"média(zscore(prs_air_in_stm_aph_paf_a_outl_kpa, ...))","prs_air_in_stm_aph_paf_a_outl_kpa, prs_air_in_stm_aph_paf_b_outl_kpa, prs_hot_pri_air_in_aph_outl_kpa"
+air_secondary_press_z,Proxy de ar secundário por pressão (z-score médio),adimensional,"média(zscore(pressure_of_sa_fan_a_outlet_kpa, ...))","pressure_of_sa_fan_a_outlet_kpa, pressure_of_sa_fan_b_outlet_kpa, prs_hot_sa_saf_a_in_aph_outl_kpa"
