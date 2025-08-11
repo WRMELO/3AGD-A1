@@ -1,0 +1,43 @@
+﻿variavel,variavel_normalizada,grupo_fisico,equipamento_processo,tau_zona,exemplo_valor,nulos
+temp_of_hpfa_fan_a_outl_adegc,temp_of_hpfa_fan_a_outl_adegc,fan,HPFA Fan A – Saída,aux_maq,95.351,1
+temp_of_hpfa_fan_b_outl_adegc,temp_of_hpfa_fan_b_outl_adegc,fan,HPFA Fan B – Saída,aux_maq,95.351,1
+temp_of_hpfa_fan_c_outl_adegc,temp_of_hpfa_fan_c_outl_adegc,fan,HPFA Fan C – Saída,aux_maq,23.507,0
+te_of_hpfa_fan_outl_head_pipe_adegc,te_of_hpfa_fan_outl_head_pipe_adegc,fan,HPFA – Tubo de cabeçote – Saída,aux_maq,94.024,0
+lms_pdr_bin_flud_air_htr_ol_te_adegc,lms_pdr_bin_flud_air_htr_ol_te_adegc,fan,Calcário – Aquecedor ar de fluidização do silo – Saída,aux_maq,120.534,384
+temp_of_gas_in_aph_outl_adegc,temp_of_gas_in_aph_outl_adegc,gas_path,Gases – APH – Saída,backpass,118.027,0
+te_of_gas_in_ecmz_side_a_outl_adegc,te_of_gas_in_ecmz_side_a_outl_adegc,gas_path,Gases – Economizer lado A – Saída,backpass,296.104,1
+te_of_gas_in_ecmz_side_b_outl_adegc,te_of_gas_in_ecmz_side_b_outl_adegc,gas_path,Gases – Economizer lado B – Saída,backpass,300.422,0
+temp_of_gas_in_ltr_side_a_inl_adegc,temp_of_gas_in_ltr_side_a_inl_adegc,gas_path,Gases – LTR lado A – Entrada,backpass,624.98,0
+temp_of_gas_in_ltr_side_a_outl_adegc,temp_of_gas_in_ltr_side_a_outl_adegc,gas_path,Gases – LTR lado A – Saída,backpass,447.526,1
+temp_of_gas_in_ltr_side_b_inl_adegc,temp_of_gas_in_ltr_side_b_inl_adegc,gas_path,Gases – LTR lado B – Entrada,backpass,661.585,0
+temp_of_gas_in_ltr_side_b_outl_adegc,temp_of_gas_in_ltr_side_b_outl_adegc,gas_path,Gases – LTR lado B – Saída,backpass,459.933,0
+te_of_hot_pri_air_in_aph_outl_adegc,te_of_hot_pri_air_in_aph_outl_adegc,gas_path,Ar de combustão – APH – Ar primário quente – Saída,backpass,261.133,0
+temperature_of_cyclone_a_inlet_adegc,temperature_of_cyclone_a_inlet_adegc,cyclone,Ciclone A – Entrada,backpass,745.441,2
+temperature_of_cyclone_b_inlet_adegc,temperature_of_cyclone_b_inlet_adegc,cyclone,Ciclone B – Entrada,backpass,729.978,1
+temperature_of_cyclone_c_inlet_adegc,temperature_of_cyclone_c_inlet_adegc,cyclone,Ciclone C – Entrada,backpass,769.65,10
+temp_of_cnd_pump_outl_header_adegc,temp_of_cnd_pump_outl_header_adegc,water,Ciclo água – Condensado – Bomba (coletor de saída),ciclo_agua,45.459,0
+temp_of_cnd_water_of_dea_inl_adegc,temp_of_cnd_water_of_dea_inl_adegc,water,Ciclo água – Condensado – Entrada do DEA,ciclo_agua,69.035,0
+te_no_6_hp_heater_ol_feed_wtr_adegc,te_no_6_hp_heater_ol_feed_wtr_adegc,water,Ciclo água – HP Heater #6 – Saída água de alimentação,ciclo_agua,199.418,0
+te_no_7_hp_heater_ol_feed_wtr_adegc,te_no_7_hp_heater_ol_feed_wtr_adegc,water,Ciclo água – HP Heater #7 – Saída água de alimentação,ciclo_agua,224.322,1
+te_no_8_hp_heater_ol_feed_wtr_adegc,te_no_8_hp_heater_ol_feed_wtr_adegc,water,Ciclo água – HP Heater #8 – Saída água de alimentação,ciclo_agua,249.275,1
+temp_of_3_lph_outl_wtr_adegc,temp_of_3_lph_outl_wtr_adegc,water,Ciclo água – LPH #3 – Saída de água,ciclo_agua,71.031,0
+temp_of_4_lph_outl_wtr_adegc,temp_of_4_lph_outl_wtr_adegc,water,Ciclo água – LPH #4 – Saída de água,ciclo_agua,69.993,0
+miain_steam_temperature_adegc,miain_steam_temperature_adegc,steam,Vapor principal – Temperatura (verificar: main_steam),ciclo_vapor,534.91,0
+hi_te_rh_ol_temp_adegc_min,hi_te_rh_ol_temp_adegc_min,fan,Vapor – Reaquecedor alta temperatura – Saída (mín),aux_maq,-0.358,0
+fsh_outl_hdr_temp_adegc_min,fsh_outl_hdr_temp_adegc_min,steam,Vapor – Superaquecedor final – Cabeçote de saída (mín),ciclo_vapor,-0.358,0
+hot_reheat_steam_temperature_1_adegc,hot_reheat_steam_temperature_1_adegc,steam,Vapor – Reheat quente (ponto 1),ciclo_vapor,533.551,1
+bed_temperature_average_adegc,bed_temperature_average_adegc,bed,Fornalha – Leito (média),densa,761.795,2723
+furnace_bed_temp_10_12_sel_adegc,furnace_bed_temp_10_12_sel_adegc,bed,Fornalha – Leito (segmento 10–12),densa,760.133,0
+furnace_bed_temp_13_15_sel_adegc,furnace_bed_temp_13_15_sel_adegc,bed,Fornalha – Leito (segmento 13–15),densa,753.804,0
+furnace_bed_temp_16_18_sel_adegc,furnace_bed_temp_16_18_sel_adegc,bed,Fornalha – Leito (segmento 16–18),densa,780.632,0
+furnace_bed_temp_1_3_sel_adegc,furnace_bed_temp_1_3_sel_adegc,bed,Fornalha – Leito (segmento 1–3),densa,732.287,0
+furnace_bed_temp_4_6_sel_adegc,furnace_bed_temp_4_6_sel_adegc,bed,Fornalha – Leito (segmento 4–6),densa,737.218,0
+furnace_bed_temp_7_9_sel_adegc,furnace_bed_temp_7_9_sel_adegc,bed,Fornalha – Leito (segmento 7–9),densa,763.715,0
+t_bfbp_b_inlet_temperature_adegc,t_bfbp_b_inlet_temperature_adegc,bed,"Fornalha – Leito inferior (seção B, entrada)",densa,138.081,0
+esp_comb_with_ff_b_outl_temp_adegc,esp_comb_with_ff_b_outl_temp_adegc,emissions,Emissões – ESP/FF lado B – Saída,emissoes,101.267,1
+temp_1_of_furnace_a_inner_adegc,temp_1_of_furnace_a_inner_adegc,furnace,Fornalha A – Interna (ponto 1),diluida,716.825,0
+temp_3_of_furnace_a_inner_adegc,temp_3_of_furnace_a_inner_adegc,furnace,Fornalha A – Interna (ponto 3),diluida,727.898,0
+temp_of_furnace_a_outl_adegc,temp_of_furnace_a_outl_adegc,furnace,Fornalha A – Saída de gases,diluida,690.591,0
+temp_1_of_furnace_b_inner_adegc,temp_1_of_furnace_b_inner_adegc,furnace,Fornalha B – Interna (ponto 1),diluida,737.087,1
+temp_3_of_furnace_b_inner_adegc,temp_3_of_furnace_b_inner_adegc,furnace,Fornalha B – Interna (ponto 3),diluida,742.728,0
+temp_of_furnace_b_outl_adegc,temp_of_furnace_b_outl_adegc,furnace,Fornalha B – Saída de gases,diluida,723.267,0
