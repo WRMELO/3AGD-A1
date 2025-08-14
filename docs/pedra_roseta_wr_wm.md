@@ -1,4 +1,4 @@
-﻿# Pedra de Roseta – Conceito Wr/Wm no Projeto A1 (Predição de Desgaste CFB)
+# Pedra de Roseta – Conceito Wr/Wm no Projeto A1 (Predição de Desgaste CFB)
 
 ## 1. Objetivo
 Estabelecer uma linguagem e métrica únicas para avaliar e comparar taxas de desgaste de **refratário** e **metal** na caldeira CFB, aplicáveis tanto à linha *Physics-Based* quanto à linha *ML/DL*.
