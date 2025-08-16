@@ -197,3 +197,123 @@ Quando houver evento medido de desgaste, recalibraremos Wref para converter índ
 ---
 
 Se quiser, já posso usar esse documento como **referência fixa** para as próximas etapas do EDA e geração dos datasets curados.
+
+aqui está o **checkpoint** no seu padrão, pronto para copiar e colar no `HISTÓRICO.md`:
+
+---
+
+# CHECKPOINT – Normalização de Features e Auditoria de Fontes (A1)
+
+**Data/Hora:** 16/08/2025 (America/Sao_Paulo)  
+**Responsável:** Wilson Melo  
+**Protocolo ativo:** Documento Unificado de Operação — GPT-5 (V0)  
+**MODO ULTRA-HF-000:** ATIVADO
+
+---
+
+## 🎯 Objetivo
+
+Padronizar nomes de features para **português curto e único** (`nome_pt`) e garantir que **todas as fontes de dados** do A1 passem pelo processo de normalização com **backup** e **auditoria**.
+
+---
+
+## ✅ Ações executadas nesta atualização
+
+1. **Dicionário canônico consolidado**
+    
+    - Arquivo: `C:\Users\wilso\MBA_EMPREENDEDORISMO\3AGD\A1_LOCAL\features_padronizadas.csv`
+        
+    - SHA256 atual (ambiente local): `73078b08b9ab591a9871889bdcb0e69c04329ab83d069534ffd21dc19ef8a5df`
+        
+    - Markdown de referência foi atualizado **apenas na tabela** (coluna `nome_pt` incluída), **sem alterar os significados**:  
+        `C:\Users\wilso\MBA_EMPREENDEDORISMO\3AGD\A1_LOCAL\NOME DAS VARIAVEIS E SEUS SIGNIFICADOS_COM_NOME_PT.md`
+        
+2. **Auditoria e normalização das fontes** (com **backup simples** `_old.csv`)
+    
+    - Inventário: `C:\Users\wilso\MBA_EMPREENDEDORISMO\3AGD\A1_LOCAL\outputs\auditoria_normalizacao_features.csv`
+        
+    - Total de arquivos processados na execução reportada: **26**
+        
+    - Exemplos do inventário:
+        
+        - `data\curated\a1_physics_informed.csv` → **backup_e_normalizacao** (mapeadas: 150, não mapeadas: 0)
+            
+        - `data\curated\a1_physics_informed_enriched.csv` → **backup_e_normalizacao** (150, 4)
+            
+        - `data\curated\a1_physics_informed_proxies.csv` → **backup_e_normalizacao** (150, 16)
+            
+        - `outputs\baseline_datasets\physics_baseline_proxies.csv` → **backup_e_normalizacao** (150, 16)
+            
+        - `outputs\baseline_datasets\physics_offbaseline_proxies.csv` → **backup_e_normalizacao** (150, 16)
+            
+        - `outputs\baseline_datasets\compare_baseline_vs_off.csv` → **somente_auditoria** (0, 4)
+            
+        - `outputs\baseline_datasets\stats_baseline.csv` → **somente_auditoria** (0, 9)
+            
+        - `outputs\baseline_datasets\stats_offbaseline.csv` → **somente_auditoria** (0, 9)
+            
+        - `outputs\baseline_mask.csv` → **backup_e_normalizacao** (1, 1)
+            
+        - `outputs\eda\matriz_correlacao_20250809_115344.csv` → **backup_e_normalizacao** (149, 1)
+            
+        - `outputs\pedra\A1_SECONDARIES_FOR_PEDRA_MODEL.csv` → **backup_e_normalizacao** (4, 6)
+            
+        - `outputs\pedra\A1_SECONDARIES_REFS.csv` → **somente_auditoria** (0, 6)
+            
+    - _Obs.: ver o inventário para a lista completa._
+        
+3. **Tratamento das “não mapeadas”**
+    
+    - Coletas e propostas geradas a partir do inventário; novas entradas foram **anexadas** ao dicionário com **backup simples**: `features_padronizadas_old.csv`.
+        
+    - **Higienização adicional (executada na sessão de trabalho):** removidos itens não relacionados a processo de combustão/fornalha (placeholders e administrativos) e **completadas dimensões** quando vazias (regras por sufixos e sentido do texto).
+        
+    - **Status:** artefatos dessa higienização estão prontos para replicação controlada no diretório oficial.
+        
+
+---
+
+## 📂 Arquivos de referência
+
+- Dicionário canônico:  
+    `C:\Users\wilso\MBA_EMPREENDEDORISMO\3AGD\A1_LOCAL\features_padronizadas.csv`
+    
+- Inventário de auditoria:  
+    `C:\Users\wilso\MBA_EMPREENDEDORISMO\3AGD\A1_LOCAL\outputs\auditoria_normalizacao_features.csv`
+    
+- Markdown com `nome_pt` incluído:  
+    `C:\Users\wilso\MBA_EMPREENDEDORISMO\3AGD\A1_LOCAL\NOME DAS VARIAVEIS E SEUS SIGNIFICADOS_COM_NOME_PT.md`
+    
+
+---
+
+## ⚠️ Pendências e riscos
+
+- Há fontes com **colunas não mapeadas** (por ex.: +4, +16) que devem ser **incorporadas ao dicionário** ou **descartadas**.
+    
+- A versão “limpa” (apenas variáveis de processo) do dicionário foi gerada na sessão; requer **replicação consciente** para o caminho oficial, evitando divergência.
+    
+
+---
+
+## 🔜 Próximas ações (imediatas)
+
+1. **Replicar** o dicionário “limpo” (apenas processo) para `A1_LOCAL\features_padronizadas.csv` **após validação**.
+    
+2. **Reexecutar a normalização** com backup `_old.csv` para atualizar cabeçalhos em todas as fontes.
+    
+3. **Regerar o inventário** e confirmar que `data\curated\*` está 100% mapeado.
+    
+4. **Registrar** o novo SHA256 do dicionário neste histórico a cada alteração aprovada.
+    
+
+---
+
+## ✅ Estado de controle
+
+- **Backup de fontes:** `*_old.csv` criado automaticamente antes de qualquer alteração.
+    
+- **Ponto de retomada oficial:** este checkpoint.
+    
+
+---
