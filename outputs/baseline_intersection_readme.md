@@ -1,4 +1,4 @@
-﻿# Baseline Físico Interseccional (τ ∩ Flow C ∩ Ar)
+# Baseline Físico Interseccional (τ ∩ Flow C ∩ Ar)
 Gerado em: 2025-08-11 17:12:24
 
 ## Setup original
